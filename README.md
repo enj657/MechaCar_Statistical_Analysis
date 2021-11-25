@@ -14,9 +14,21 @@ Based on our calculations, this linear model does predict mpg of MechaCar protot
 
 ## Summary Statistics on Suspension Coils
 
+In order to determine whether the current manufacturing data meets specific design specifications, I made two dataframes to show 1: the mean, median, variance, and sd for all lots combined and 2: the mean, median, variance, and sd for each individual lot.
+
 ![image info](./Resources/total_summary.png)
 
 
-
-
 ![image info](./Resources/lot_summary.png)
+
+The design specifications for the MechaCar suspension coils dictate that the variance of the coils must not exceed 100 PSI, and based on our tables we can see that, as a total, the lots do not exceed 100 PSI. They average 62.3 for the variance. However, if we break down the data into individual lots, we can see that lots 1 and 2 are within the limits, but lot 3 exceeds the 100 PSI variance limit.
+
+## T-Tests on Suspension Coils
+
+![image info](./Resources/ttest_all.png)
+
+![image info](./Resources/ttest_lot1.png)
+
+![image info](./Resources/ttest_lot2.png)
+
+![image info](./Resources/ttest_lot3.png)
