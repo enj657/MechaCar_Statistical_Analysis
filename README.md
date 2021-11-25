@@ -25,10 +25,26 @@ The design specifications for the MechaCar suspension coils dictate that the var
 
 ## T-Tests on Suspension Coils
 
+I wrote four RSripts using the t.test() function to determine if the population mean of 1,500 PSI was statistically different from the PSI across all lots and each individual lot. 
+
+All lots:
 ![image info](./Resources/ttest_all.png)
 
+The p-value for all lots was 0.0603, which is not lower than 0.05, and therefore is not low enough for us to reject the null hypothesis. The mean PSI of all lots is not statistically different from the population mean.
+
+Lot 1:
 ![image info](./Resources/ttest_lot1.png)
 
+The p-value for lot 1 was equal to 1, which is not low enough for us to reject the null hypothesis. The t-test shows that lot 1 is not statistically different from the population mean.
+
+Lot 2:
 ![image info](./Resources/ttest_lot2.png)
 
+The p-value for lot 2 was 0.6072, which is not lower than 0.05 and not enough for us to reject the null hypothesis. The t-test shows that lot 2 is not statistically different from the population mean.
+
+Lot 3:
 ![image info](./Resources/ttest_lot3.png)
+
+The p-value for lot 3 was 0.04168, which is barely lower than 0.05, and is enough for us to reject the null hypothesis. The t-test shows that lot 3 is slightly statistically different from the population mean.
+
+## Study Design: MechaCar vs Competition
