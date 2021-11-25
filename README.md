@@ -14,3 +14,9 @@ Based on our calculations, this linear model does predict mpg of MechaCar protot
 
 ## Summary Statistics on Suspension Coils
 
+![image info](./Resources/total_summary.png)
+
+
+
+
+![image info](./Resources/lot_summary.png)
